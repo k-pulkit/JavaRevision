@@ -11,4 +11,8 @@ public enum LoggingLevel {
     public int code() {
         return i;
     }
+
+    public boolean isPending() {
+        return this == LoggingLevel.PENDING;
+    }
 }
